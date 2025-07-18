@@ -1,0 +1,36 @@
+Changelog
+v1.8:
+-Fix Acoms bug
+
+v1.7:
+-Separetely RunIn and Runout distances for Line with Stops
+-Acoms command repeated after any resurface in case it goes off automatically during resurface
+-Autodensify lines with stop when less than 4 vertex ( to avoid wrongly drawed lines fig of 8 or resurfaces)
+
+v1.6:
+
+-Added option to export the mission as ESRI shapefile
+
+V 1.5
+-Added functionality to choose between 256 and 512 beams for the multibeam
+
+V 1.4
+-Extended Line with Stops capabilities: added loops when AC exceed n degrees
+
+
+V 1.3
+
+-Extended Line with Stops capabilities: added Fig. of 8 manoeuvre (When a Fig.8 is closer than 250m to a surface stops it will be incorparated in the surface stop)
+
+
+
+
+V 1.2
+
+-When "log on lines" is ticked systems will not log outside lines (and rows) or on their runIns/Out (properly this time)
+
+-automatic naming of lines if taken from a file which one of the field cointain the word "name"
+
+-option to automatically create surface stops along the lines for GNSS reception when it exceeds n meters
+
+-change of icon
